@@ -37,7 +37,7 @@ const FunctionalInput = ({ name }) => {
       {/* The list of all the To-Do's, displayed */}
       <ul>
         {todos.map((todo) => (
-          <li key={todo}>{todo}</li>
+          <li key={todo}>{todo} </li>
         ))}
       </ul>
     </section>
